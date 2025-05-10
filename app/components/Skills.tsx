@@ -48,7 +48,7 @@ const Skills: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category) => (
             <div
               key={category.name}
               className="relative group bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300"

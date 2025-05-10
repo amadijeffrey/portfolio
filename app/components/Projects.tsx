@@ -1,7 +1,7 @@
 "use client"
 
-import React, { useState } from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import React from 'react';
+import { ExternalLink } from 'lucide-react';
 
 interface Project {
   id: number;
@@ -13,7 +13,6 @@ interface Project {
 }
 
 const Projects: React.FC = () => {
-  const [activeFilter, setActiveFilter] = useState<string>('All');
   
   const projects: Project[] = [
     {
@@ -66,11 +65,6 @@ const Projects: React.FC = () => {
     // }
   ];
   
-  const allTags = ['All', ...Array.from(new Set(projects.flatMap(project => project.tags)))].slice(0, 10);
-  
-  const filteredProjects = activeFilter === 'All' 
-    ? projects 
-    : projects.filter(project => project.tags.includes(activeFilter));
 
   return (
     <section id="projects" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
@@ -79,13 +73,13 @@ const Projects: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Recent Projects</h2>
           <div className="w-20 h-1 bg-indigo-600 dark:bg-indigo-400 mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Here are some of the projects I've worked on. Each one presented unique challenges and opportunities to apply my skills.
+            Here are some of the projects I&apos;ve worked on. Each one presented unique challenges and opportunities to apply my skills.
           </p>
         </div>
         
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project) => (
+          {projects.map((project) => (
             <div 
               key={project.id}
               className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-md border border-gray-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300"

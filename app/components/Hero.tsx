@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
               href="#contact" 
               className="group px-8 py-4 border-2 border-gray-900 dark:border-white hover:bg-gray-900 dark:hover:bg-white text-gray-900 dark:text-white hover:text-white dark:hover:text-gray-900 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105"
             >
-              Let's Connect
+              Let&apos;s Connect
             </a>
           </div>
 

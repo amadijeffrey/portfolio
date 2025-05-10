@@ -1,5 +1,4 @@
 import React from 'react';
-import { Code, Server, Globe, Package } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -13,7 +12,7 @@ const About: React.FC = () => {
         <div className="flex mx-auto items-center w-[60%] text-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I'm a <span className="font-semibold text-indigo-600 dark:text-indigo-400">result-driven Full Stack Software Engineer</span> passionate about building scalable and efficient web applications that solve real-world problems.
+              I&apos;m a <span className="font-semibold text-indigo-600 dark:text-indigo-400">result-driven Full Stack Software Engineer</span> passionate about building scalable and efficient web applications that solve real-world problems.
             </p>
             
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
