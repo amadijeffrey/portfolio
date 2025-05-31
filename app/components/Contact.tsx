@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
           <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-8 border border-gray-100 dark:border-gray-700">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h3>
             
-            <div className="flex gap-4">
+            <div className="flex flex-col lg:flex-row gap-4">
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-indigo-600 dark:text-indigo-400 mt-0.5" />
                 <div>
