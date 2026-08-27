@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
           <div className="w-full max-w-3xl mt-16 animate-fadeInUp [animation-delay:1000ms]">
             <p className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-6">Trusted Technologies</p>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 items-center justify-items-center">
-              {['React', 'Node.js', 'TypeScript', 'AWS', 'MongoDB', 'Docker'].map((tech, index) => (
+              {['React', 'Node.js', 'TypeScript', 'AWS', 'MongoDB', 'PostgreSQL'].map((tech, index) => (
                 <span 
                   key={tech} 
                   className="text-sm font-mono text-gray-600 dark:text-gray-300 opacity-0 animate-fadeInRight"

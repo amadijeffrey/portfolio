@@ -15,24 +15,48 @@ interface Project {
 const Projects: React.FC = () => {
   
   const projects: Project[] = [
-    {
+     {
       id: 1,
-      title: 'Seedfi',
-      description: 'A lending platform aimed to revolutionize loan industry by combining alternative data with traditional credit scores.',
-      image: '/seedfi.png',
-      tags: [ 'TypeScript', 'React', 'Redux', ],
-      liveUrl: 'https://app.theseedfi.com/'
+      title: 'Soren by Inicio',
+      description: 'Soren is an AI-powered market research platform  for researchers to run qualitative studies end to end. ',
+      image: '/inicio.png',
+      tags: [ 'TypeScript', 'Next.js', 'Zustand', 'Go', 'Deepgram', 'OpenAi', 'Websocket', 'PostgreSQL'],
+      liveUrl: 'https://admin.inicio-soren.xyz/'
     },
-    {
+     {
       id: 2,
-      title: 'Hydra',
-      description: 'An Electronic Medical Record for keeping track of patient visit and manageing staff for hospitals.',
-      image: '/hydra.png',
-      tags: ['React', 'Node.js', 'Postgres', 'Redux'],
-      liveUrl: 'https://provider.gethydra.io'
+      title: 'Breed',
+      description: 'A spiritual companion app built to help you stay consistent in your walk with God.',
+      image: '/breed.png',
+      tags: [ 'TypeScript', 'React.js', 'Redux', 'Tailwind'],
+      liveUrl: 'https://www.joinbreed.com/'
     },
     {
       id: 3,
+      title: 'Blippto Estates',
+      description: 'An interactive application for estate management and residents that helps estates manage residents and staff efficiently with a holistic analysis of the estate.',
+      image: '/blippto.png',
+      tags: [ 'TypeScript', 'React', 'Redux', 'Express', 'Firebase', 'PostgreSQL', 'DynamoDb', 'OAuth'],
+      liveUrl: 'https://www.blippto.com/'
+    },
+    {
+      id: 4,
+      title: 'Seedfi',
+      description: 'A lending platform aimed to revolutionize loan industry by combining alternative data with traditional credit scores.',
+      image: '/seedfi.png',
+      tags: [ 'TypeScript', 'React', 'Redux', 'Ant design'],
+      liveUrl: 'https://app.theseedfi.com/'
+    },
+    {
+      id: 5,
+      title: 'Hydra',
+      description: 'An Electronic Medical Record for keeping track of patient visit and manageing staff for hospitals.',
+      image: '/hydra.png',
+      tags: ['React', 'Node.js', 'PostgreSQL', 'Redux', 'Storybook'],
+      liveUrl: 'https://provider.gethydra.io'
+    },
+    {
+      id: 6,
       title: 'Rigourplus',
       description: 'An interactive dashboard that allow users access health services from the comfort of their homes.',
       image: '/rigourplus.png',
@@ -40,7 +64,7 @@ const Projects: React.FC = () => {
       liveUrl: 'https://web.rigourplus.com'
     },
     {
-      id: 4,
+      id: 7,
       title: 'OSC',
       description: 'A mobile-first learning platform with courses related to fashion, a marketplace to shop products and machineries.',
       image: '/osc.png',
@@ -48,21 +72,21 @@ const Projects: React.FC = () => {
       liveUrl: 'https://osccollegeoffashion.com'
     },
     {
-      id: 5,
+      id: 8,
       title: 'BigCheq Consulting Co',
       description: 'A web based platform empowering businesses to achieve extraordinary growth through insightful strategy and innovative technology.',
       image: '/bigcheq.png',
       tags: ['React', 'Tailwind'],
       liveUrl: 'https://www.bigcheqconsultingco.com'
     },
-    // {
-    //   id: 6,
-    //   title: 'Weather Application',
-    //   description: 'A responsive weather application with location-based forecasts, interactive maps, and historical data.',
-    //   image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    //   tags: ['JavaScript', 'React', 'REST API', 'CSS'],
-    //   liveUrl: null
-    // }
+  {
+      id: 9,
+      title: 'Logg',
+      description: 'Logg is the guided relocation platform that takes you from "where do I start?" to settled, working, and thriving in the UK — step by step, with trusted support at every stage.',
+      image: '/logg.png',
+      tags: ['React', 'Tailwind', 'Redux', 'React query'],
+      liveUrl: 'https://www.useLogg.com'
+    },
   ];
   
 
